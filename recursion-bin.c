@@ -66,4 +66,4 @@
         {
             binary_search(list, mid + 1, hi, key);
         }
-    }}
+    }
