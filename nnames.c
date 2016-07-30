@@ -13,7 +13,7 @@
      
         printf("Enter the value of n \n");
         scanf("%d", &n);
-        printf("Enter %d names n", \n);
+        printf("Enter %d names n", n);
         for (i = 0; i < n; i++)
         {
             scanf("%s", name[i]);

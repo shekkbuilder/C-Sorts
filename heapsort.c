@@ -34,7 +34,7 @@
         for (j = no - 1; j >= 0; j--)
         {
             temp = heap[0];
-            heap[0] = heap[j    /* swap max element with rightmost leaf element */
+            heap[0] = heap[j];    /* swap max element with rightmost leaf element */
             heap[j] = temp;
             root = 0;
             do 
